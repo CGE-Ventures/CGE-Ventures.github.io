@@ -20,7 +20,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/icon-xs.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="mask-icon" href="/images/logo/icon-5xl.svg" color="#5bbad5" />
-    <link rel="shortcut icon" href="//favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-config" content="/browserconfig.xml" />
     <meta name="theme-color" content="#FFFFFF" />
@@ -79,14 +79,14 @@
       </section>
       <section class="section-product">
         <nav class="bg-secondary">
-          <a class="active" href="#">Event Management</a>
-          <a href="#">Point of Sale</a>
-          <a href="#">Totalizer</a>
-          <a href="#">Accounting</a>
+          <a data-do="tab" data-on="click" class="active" href="#product-event">Event Management</a>
+          <a data-do="tab" data-on="click" href="#product-pos">Point of Sale</a>
+          <a data-do="tab" data-on="click" href="#product-totalizer">Totalizer</a>
+          <a data-do="tab" data-on="click" href="#product-operator">Operator Dashboard</a>
         </nav>
         <div class="container">
           <div class="carousel">
-            <div class="slide active">
+            <div id="product-event" class="slide active">
               <div class="preview">
                 <img src="/images/product-event.png" />
               </div>
@@ -100,7 +100,7 @@
                 </ul>
               </div>
             </div>
-            <div class="slide">
+            <div id="product-pos" class="slide">
               <div class="preview">
                 <img src="/images/product-pos.png" />
               </div>
@@ -116,7 +116,7 @@
                 </ul>
               </div>
             </div>
-            <div class="slide">
+            <div id="product-totalizer" class="slide">
               <div class="preview">
                 <img src="/images/product-totalizer.png" />
               </div>
@@ -131,7 +131,7 @@
                 </ul>
               </div>
             </div>
-            <div class="slide">
+            <div id="product-operator" class="slide">
               <div class="preview">
                 <img src="/images/product-operator.png" />
               </div>
@@ -212,16 +212,148 @@
           <h2>Shop Arena Equiptment</h2>
         </div>
         <nav class="bg-secondary">
-          <a class="active" href="#">POS Systems</a>
-          <a href="#">Mini PCs</a>
-          <a href="#">Monitors</a>
-          <a href="#">Televisions</a>
-          <a href="#">Scanners</a>
-          <a href="#">Printers</a>
-          <a href="#">Servers</a>
+          <a data-do="tab" data-on="click" class="active" href="#shop-pos">POS Systems</a>
+          <a data-do="tab" data-on="click" href="#shop-pcs">Mini PCs</a>
+          <a data-do="tab" data-on="click" href="#shop-monitors">Monitors</a>
+          <a data-do="tab" data-on="click" href="#shop-televisions">Televisions</a>
+          <a data-do="tab" data-on="click" href="#shop-scanners">Scanners</a>
+          <a data-do="tab" data-on="click" href="#shop-printers">Printers</a>
+          <a data-do="tab" data-on="click" href="#shop-servers">Servers</a>
         </nav>
         <div class="container">
-          <div class="products">
+          <div id="shop-pos" class="products active">
+            <div class="product">
+              <img src="/images/placeholder-product-1.png" />
+              <h3>AIO TOUCHSCREEN POS</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-2.png" />
+              <h3>ThinPC POS System</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-3.png" />
+              <h3>Hosoton Mobile POS</h3>
+              <span>₱6,000</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-4.png" />
+              <h3>Esky Bar Scanner</h3>
+              <span>₱400</span>
+            </div>
+          </div>
+          <div id="shop-pcs" class="products">
+            <div class="product">
+              <img src="/images/placeholder-product-1.png" />
+              <h3>AIO TOUCHSCREEN POS</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-2.png" />
+              <h3>ThinPC POS System</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-3.png" />
+              <h3>Hosoton Mobile POS</h3>
+              <span>₱6,000</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-4.png" />
+              <h3>Esky Bar Scanner</h3>
+              <span>₱400</span>
+            </div>
+          </div>
+          <div id="shop-monitors" class="products">
+            <div class="product">
+              <img src="/images/placeholder-product-1.png" />
+              <h3>AIO TOUCHSCREEN POS</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-2.png" />
+              <h3>ThinPC POS System</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-3.png" />
+              <h3>Hosoton Mobile POS</h3>
+              <span>₱6,000</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-4.png" />
+              <h3>Esky Bar Scanner</h3>
+              <span>₱400</span>
+            </div>
+          </div>
+          <div id="shop-televisions" class="products">
+            <div class="product">
+              <img src="/images/placeholder-product-1.png" />
+              <h3>AIO TOUCHSCREEN POS</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-2.png" />
+              <h3>ThinPC POS System</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-3.png" />
+              <h3>Hosoton Mobile POS</h3>
+              <span>₱6,000</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-4.png" />
+              <h3>Esky Bar Scanner</h3>
+              <span>₱400</span>
+            </div>
+          </div>
+          <div id="shop-scanners" class="products">
+            <div class="product">
+              <img src="/images/placeholder-product-1.png" />
+              <h3>AIO TOUCHSCREEN POS</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-2.png" />
+              <h3>ThinPC POS System</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-3.png" />
+              <h3>Hosoton Mobile POS</h3>
+              <span>₱6,000</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-4.png" />
+              <h3>Esky Bar Scanner</h3>
+              <span>₱400</span>
+            </div>
+          </div>
+          <div id="shop-printers" class="products">
+            <div class="product">
+              <img src="/images/placeholder-product-1.png" />
+              <h3>AIO TOUCHSCREEN POS</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-2.png" />
+              <h3>ThinPC POS System</h3>
+              <span>₱12,0000 — ₱8,000.00</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-3.png" />
+              <h3>Hosoton Mobile POS</h3>
+              <span>₱6,000</span>
+            </div>
+            <div class="product">
+              <img src="/images/placeholder-product-4.png" />
+              <h3>Esky Bar Scanner</h3>
+              <span>₱400</span>
+            </div>
+          </div>
+          <div id="shop-servers" class="products">
             <div class="product">
               <img src="/images/placeholder-product-1.png" />
               <h3>AIO TOUCHSCREEN POS</h3>
@@ -282,5 +414,7 @@
         </nav>
       </div>
     </footer>
+    <script type="text/javascript" src="/scripts/doon.js"></script>
+    <script type="text/javascript" src="/scripts/index.js"></script>
   </body>
 </html>

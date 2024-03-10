@@ -105,6 +105,14 @@
   font-weight: bold;
 }
 
+.section-product .carousel .preview {
+  max-width: 400px;
+}
+
+.section-product .carousel .preview img {
+  width: 100%;
+}
+
 .section-product .carousel .slide {
   display: none;
 }
@@ -192,6 +200,10 @@
 }
 
 .section-shop .products {
+  display: none;
+}
+
+.section-shop .products.active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
