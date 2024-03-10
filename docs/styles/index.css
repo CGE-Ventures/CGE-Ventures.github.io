@@ -1,3 +1,14 @@
+.section-hero {
+  background-image: url(/images/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 20px;
+}
+.section-hero .background img {
+  opacity: 0.1;
+  height: 100%;
+}
 .section-hero .container {
   align-items: center;
   display: flex;
@@ -5,7 +16,11 @@
 
 .section-hero .content {
   flex-basis: 50%;
-  padding: 40px 0;
+  white-space: nowrap;
+}
+
+.section-hero .content h1 {
+  text-align: center;
 }
 
 .section-hero .content h2 {
@@ -14,20 +29,25 @@
   font-weight: normal;
   letter-spacing: 5px;
   margin: -15px 0 0 0;
+  text-align: center;
 }
 
 .section-hero .content ul {
   display: flex;
+  list-style: none;
   flex-wrap: wrap;
-  padding-left: 20px;
+  padding: 0 0 0 60px;
+  width: 370px;
+  margin: auto;
 }
 
 .section-hero .content li {
+  flex-basis: 50%;
   line-height: 30px;
-  width: 50%;
 }
 
 .section-hero .content .action {
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -68,6 +88,7 @@
 }
 
 .section-product nav {
+  line-height: 30px;
   padding: 20px 0;
   text-align: center;
   text-transform: uppercase;
@@ -153,6 +174,7 @@
 }
 
 .section-shop nav {
+  line-height: 30px;
   padding: 20px 0;
   text-align: center;
   text-transform: uppercase;
@@ -219,4 +241,62 @@
 
 .section-about .preview img {
   max-width: 250px;
+}
+
+@media(max-width: 767px) {
+  .section-hero .container {
+    display: block;
+  }
+
+  .section-hero .preview {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .section-hero .preview img {
+    max-width: 300px;
+  }
+
+  .section-product .carousel {
+    text-align: center;
+  }
+  .section-product .carousel .slide.active {
+    display: inline-block;
+  }
+
+  .section-product .carousel li {
+    text-align: left;
+  }
+
+  .section-plan .plans {
+    display: block;
+  }
+
+  .section-plan .plans h2 {
+    margin-bottom: 0;
+  }
+
+  .section-plan .plans .plan {
+    margin: 20px auto !important;
+  }
+
+  .section-about .container {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media(max-width: 490px) {
+  .section-hero .content h1 {
+    font-size: 18px;
+  }
+  
+  .section-hero .content h2 {
+    font-size: 12px;
+  }
+  .section-hero .content ul {
+    padding: 0;
+    text-align: center;
+    width: 300px;
+  }
 }
