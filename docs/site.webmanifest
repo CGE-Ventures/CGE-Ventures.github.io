@@ -1,0 +1,19 @@
+{
+    "name": "Cockpit Games",
+    "short_name": "cockpit",
+    "icons": [
+        {
+            "src": "/images/icon-xl.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icon-lg.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "display": "standalone"
+}

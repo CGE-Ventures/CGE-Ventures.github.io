@@ -1,0 +1,222 @@
+.section-hero .container {
+  align-items: center;
+  display: flex;
+}
+
+.section-hero .content {
+  flex-basis: 50%;
+  padding: 40px 0;
+}
+
+.section-hero .content h2 {
+  color: #BBBBBB;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin: -15px 0 0 0;
+}
+
+.section-hero .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.section-hero .content li {
+  line-height: 30px;
+  width: 50%;
+}
+
+.section-hero .content .action {
+  text-align: center;
+}
+
+.section-hero .content .action button {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-hero .content .platform {
+  align-items: center;
+  display: inline-flex;
+  font-size: 13px;
+  justify-content: center;
+}
+
+.section-hero .content .platform span {
+  padding-left: 5px;
+}
+
+.section-hero .content .platform .fa-windows {
+  color: #01ADEF;
+}
+
+.section-hero .preview {
+  flex-basis: 50%;
+  margin-left: 40px;
+}
+
+.section-hero .preview img {
+  width: 100%;
+}
+
+.section-hero .platform {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-product nav {
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-product nav a {
+  color: #666666;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.section-product nav .active {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-product .carousel .slide {
+  display: none;
+}
+
+.section-product .carousel .slide.active {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.section-product .carousel .slide .content {
+  padding-left: 20px;
+}
+
+.section-product .carousel .slide .content h3 {
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.section-product .carousel .slide .content ul {
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.section-plan {
+  padding: 40px 0;
+}
+
+.section-plan .plans {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.section-plan .plans .plan {
+  flex-basis: 33%;
+}
+
+.section-plan .plans .plan:nth-child(2) {
+  margin: 0 20px;
+}
+
+.section-plan .plans .plan h3 {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.section-plan .plans .plan .option {
+  align-items: center;
+  display: flex;
+  padding: 20px 10px;
+}
+
+.section-plan .plans .plan .option.strike span:last-child {
+  color: #666666;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.section-plan .plans .plan .option span:first-child {
+  flex-grow: 1;
+}
+
+.section-shop h2 {
+  margin: 20px 0;
+}
+
+.section-shop nav {
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-shop nav a {
+  color: #666666;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.section-shop nav .active {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-shop .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.section-shop .products .product {
+  flex-basis: calc(25% - 20px);
+  margin: 0 10px 20px;
+}
+
+.section-shop .products h3 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.section-shop .products span {
+  font-size: 12px;
+}
+
+.section-about {
+  margin: auto;
+  padding: 40px 0;
+}
+
+.section-about .container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.section-about .content {
+  padding: 0 0 0 40px;
+}
+
+.section-about .content h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: -15px 0 0 0;
+  text-transform: uppercase;
+}
+
+.section-about .content p {
+  font-size: 16px;
+  padding: 10px 0 20px;
+}
+
+.section-about .preview img {
+  max-width: 250px;
+}
