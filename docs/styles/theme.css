@@ -429,10 +429,11 @@ a, a:hover, a:active, a:visited {
 
 .head .menu {
   align-items: center;
-  display: none; /*flex*/
+  display: flex;
 }
 
 .head .menu a {
+  color: #FFFFFF;
   margin-right: 20px;
 }
 

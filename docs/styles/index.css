@@ -42,7 +42,7 @@
 }
 
 .section-hero .content li {
-  flex-basis: 50%;
+  flex-basis: 100%;
   line-height: 30px;
 }
 
@@ -51,10 +51,10 @@
   text-align: center;
 }
 
-.section-hero .content .action button {
-  display: block;
+.section-hero .content .action .btn {
   font-weight: bold;
   margin-bottom: 10px;
+  width: auto;
 }
 
 .section-hero .content .platform {
