@@ -236,7 +236,7 @@
 }
 
 .section-about .content {
-  padding: 0 0 0 40px;
+  padding-left: 40px;
 }
 
 .section-about .content h2 {
@@ -295,6 +295,10 @@
   .section-about .container {
     display: block;
     text-align: center;
+  }
+
+  .section-about .content {
+    padding-left: 0;
   }
 }
 
