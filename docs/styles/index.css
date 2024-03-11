@@ -255,6 +255,24 @@
   max-width: 250px;
 }
 
+#success {
+  bottom: 0;
+  margin: 20px;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+#success .container {
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+  color: #3C763D;
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+}
+
 @media(max-width: 767px) {
   .section-hero .container {
     display: block;
